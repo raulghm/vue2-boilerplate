@@ -1,0 +1,40 @@
+/**
+ * Base
+ *
+ * @author Raul Hernandez <raulghm@gmail.com>
+ * @desc Base, low level configuration
+ * @since 2016-05-08
+ */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 14px Arial;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+/**
+ * Suppress the focus outline on links that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+
+[tabindex="-1"]:focus {
+  outline: none !important;
+}
+
+/*
+ * Makes the hidden attribute works even when an element is styled display: flex
+ * http://lists.w3.org/Archives/Public/public-whatwg-archive/2014May/0001.html
+ */
+[hidden] {
+  display: none !important
+}

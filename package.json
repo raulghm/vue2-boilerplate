@@ -1,0 +1,36 @@
+{
+  "name": "vue2-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Raul Hernandez <raulghm@gmail.com>",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch",
+    "dist": "gulp --production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1",
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "laravel-elixir-remove": "^0.2.1",
+    "laravel-elixir-vue-2": "^0.3.0",
+    "laravel-elixir-webpack-official": "^1.0.10",
+    "lodash": "^4.17.2",
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2",
+    "vue": "^2.1.4",
+    "vue-events": "^2.0.0-beta",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.1",
+    "vue-stash": "^2.0.1-beta"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "fs": "0.0.1-security",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
