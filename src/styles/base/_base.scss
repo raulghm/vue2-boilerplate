@@ -1,9 +1,5 @@
 /**
  * Base
- *
- * @author Raul Hernandez <raulghm@gmail.com>
- * @desc Base, low level configuration
- * @since 2016-05-08
  */
 
 html {
@@ -11,7 +7,7 @@ html {
 }
 
 body {
-  font: 14px Arial;
+  font: 14px $font-family-sans-serif;
 }
 
 a,
