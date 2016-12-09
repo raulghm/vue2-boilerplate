@@ -1,3 +1,3 @@
 export default {
-  message: 'Hello world!',
+  message: 'Hello Vue 2',
 }

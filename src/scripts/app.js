@@ -1,4 +1,4 @@
-import { Vue, router, store } from './boot/core'
+import { Vue, router, store } from './config/config'
 import App from './components/app.vue'
 
 new Vue({
@@ -6,8 +6,8 @@ new Vue({
   el: '#app',
   render: h => h(App),
   data() {
-  	return { 
+  	return {
   		store
   	};
-  },  
+  },
 });

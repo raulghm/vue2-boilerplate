@@ -5,11 +5,11 @@ export default [
   {
     path: '/',
     name: 'home',
-    components: Home,
+    component: Home,
   },
   {
     path: '/demo',
     name: 'demo',
-    components: Demo,
+    component: Demo,
   },
 ]
